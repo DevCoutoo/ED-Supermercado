@@ -10,6 +10,7 @@ Desenvolvido em linguagem C, utilizando estruturas de dados como filas, listas l
 
 ## 🏗️ Arquitetura
 ED-Supermercado/
+
 ├── src/
 
 │   ├── main.c
