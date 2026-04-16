@@ -30,7 +30,7 @@ ED-Supermercado/
 ## 🛠️ Compilação
 
 ```bash
-gcc -o supermercado main.c caixa.c cliente.c produto.c fila.c utils.c -Wall
+gcc -o supermercado main.c caixa.c cliente.c produto.c fila.c utils.c -o programa.exe
 ```
 
 ## 👤 Autor
