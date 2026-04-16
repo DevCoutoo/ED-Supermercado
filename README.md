@@ -11,19 +11,31 @@ Desenvolvido em linguagem C, utilizando estruturas de dados como filas, listas l
 ## 🏗️ Arquitetura
 ED-Supermercado/
 ├── src/
+
 │   ├── main.c
+
 │   ├── caixa.c / caixa.h        # struct Caixa, abrir/fechar
 │   ├── cliente.c / cliente.h    # struct Cliente, produtos
+
 │   ├── fila.c / fila.h          # fila de clientes (queue)
 │   ├── lista.c / lista.h        # lista de caixas
+
 │   ├── hash.c / hash.h          # pesquisa rápida de clientes
+
 │   ├── simulacao.c / simulacao.h # lógica principal (MAX_FILA, MIN_FILA, etc.)
+
 │   ├── ficheiros.c / ficheiros.h # leitura Dados.txt, Configuracao.txt
+
 │   └── relatorio.c / relatorio.h # gravação CSV, stats finais
+
 ├── data/
+
 │   ├── Configuracao.txt
+
 │   └── Dados.txt
+
 ├── output/                       # ficheiros gerados (CSV, historico)
+
 └── README.md / docs (doxygen)
 
 ## ⚙️ Funcionalidades
